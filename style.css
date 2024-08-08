@@ -1,7 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+@media (max:375px);
+{
+    .greybox{
+        width:100%;
+    }
+}
+
+main{
+    margin:50px;
+}
 
 {
-
     .conteudo{
         width: 100%;
     }
@@ -20,33 +29,34 @@ body{
     align-items: center;
 
 }
-.greybox{
+.greybox{ 
     color:white;
     background-color:rgb(31, 31, 31);
     display:flex;
     flex-direction: column;
     align-items: center;
-    width: 30%;
+    width: 20%;
     max-width: 1440px;
     padding:60px 20px;
     border-radius:2%;
     font-family:"inter",sans-serif;
     max-width:1440px;
+
     .nome{ 
         color: white;
-        font-size: 1,12rem;
+        font-size:20px;
         font-weight: 600;
         margin-bottom:0;
     }
     .place{
         color:rgba(199, 233, 49, 0.747);
-        font-size: 0,62rem;
+        font-size: 10px;
         font-weight: 600;
-        margin-top: 10px;
+        margin-top:2%;
     }
     .subt{
         color: rgba(192, 189, 189, 0.726);
-        font-size: 0,62rem;
+        font-size:10px;
         font-weight: 400;
         padding-bottom: 5px;
         max-width: fit-content;
@@ -55,7 +65,7 @@ body{
         display:flex;
         flex-direction: column;
         justify-content: space-between;
-        height: 165px;
+        height: 180px;
     }
     .apre__links__sites{
         display:flex;
@@ -64,26 +74,24 @@ body{
         width:200px;
         color:rgba(245, 245, 245, 0.863);
         font-family:"inter",sans-serif;
+        text-decoration: none;
         background-color:rgb(51, 51, 51);
-        font-size: 0,62rem;
+        font-size:12px;
         font-weight:600;
-        border-radius: 5%;
+        border-radius: 7%;
         padding:10px;
      
     }
+}
     .apre__links__sites:hover{
         background:grey;
 
 }
 .apre__imagem{
-    max-width: 20%;
+    max-width: 30%;
     height: auto;
     display: block;
     margin:0 0;
     border-radius:50%;
     margin-bottom: 10px;
 }
-@media (max-width: 1067px) {
-    .greybox {
-        width: 50%;
-    }
