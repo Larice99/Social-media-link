@@ -7,9 +7,7 @@
     }
 }
 
-main{
-    margin:50px;
-}
+
 body{
     background-color:rgb(20, 20, 20);
     font-size: 0,62rem;
@@ -33,6 +31,7 @@ body{
     padding:60px 20px;
     border-radius:2%;
     font-family:"inter",sans-serif;
+    max-width:1440px;
     .nome{ 
         color: white;
         font-size: 1,12rem;
@@ -50,6 +49,7 @@ body{
         font-size: 0,62rem;
         font-weight: 400;
         padding-bottom: 5px;
+        max-width: fit-content;
     }
     .links{
         display:flex;
