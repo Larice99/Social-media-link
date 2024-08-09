@@ -2,8 +2,8 @@
 
 @media (max-width: 768px){
     .greybox{ 
-        width: 90%; 
-        padding: 20px 18px;
+        width:none;
+        padding: 20px 15px;
     }
 }
     @media (max-width: 390px) {
