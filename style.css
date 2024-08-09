@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
 @media (max-width: 768px){
     .greybox{ 
         width: 90%; 
@@ -7,7 +8,7 @@
 }
     @media (max-width: 390px) {
         .greybox {
-            width: 100%; 
+            width: 30%; 
             padding: 15px 5px; 
             font-size: 0.9em; 
         }
@@ -45,7 +46,6 @@ body{
     padding:60px 20px;
     border-radius:2%;
     font-family:"inter",sans-serif;
-    max-width:1440px;
 
     .nome{ 
         color: white;
