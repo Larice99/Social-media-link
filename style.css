@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
-@media (max:375px);
+@media (max-width: 768px); 
+    .greybox {
+        width: 90%; 
+        padding: 20px 10px;
+    }
+    @media (max-width: 480px) {
+        .greybox {
+            width: 100%; 
+            padding: 15px 5px; 
+            font-size: 0.9em; 
+        }
+    }
 {
     .greybox{
         width:100%;
