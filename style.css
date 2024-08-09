@@ -1,19 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
 
-@media (max-width: 363px){
-    .greybox{ 
-        width:90%;
-        padding: 20px 15px;
-    }
-}
-    @media (max-width: 363px) {
-        .greybox {
-            width:90%; 
-            padding: 15px auto; 
-            font-size: 0.9em; 
-        }
-    }  
-
 main{
     margin:50px;
 }
@@ -41,7 +27,7 @@ body{
     display:flex;
     flex-direction: column;
     align-items: center;
-    width: 90%;
+    width: 100%;
     max-width: 363px;
     padding:60px 20px;
     border-radius:2%;
