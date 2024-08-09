@@ -8,7 +8,7 @@
 }
     @media (max-width: 390px) {
         .greybox {
-            width:fit-content; 
+            width: 100px; 
             padding: 15px 5px; 
             font-size: 0.9em; 
         }
