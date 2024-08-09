@@ -9,7 +9,7 @@
     @media (max-width: 390px) {
         .greybox {
             width:0; 
-            padding: 15px 5px; 
+            padding: 15px auto; 
             font-size: 0.9em; 
         }
     }  
