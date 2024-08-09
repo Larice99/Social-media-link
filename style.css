@@ -1,19 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
 
-@media (max-width: 768px){
-    .greybox{ 
-        width:none;
-        padding: 20px 15px;
-    }
-}
-    @media (max-width: 390px) {
-        .greybox {
-            width:0; 
-            padding: 15px auto; 
-            font-size: 0.9em; 
-        }
-    }  
-
 main{
     margin:50px;
 }
@@ -41,8 +27,8 @@ body{
     display:flex;
     flex-direction: column;
     align-items: center;
-    width: 20%;
-    max-width: 1440px;
+    width: 90%;
+    max-width: 363px;
     padding:60px 20px;
     border-radius:2%;
     font-family:"inter",sans-serif;
@@ -69,22 +55,35 @@ body{
     .links{
         display:flex;
         flex-direction: column;
+        align-items: center;
+    }
+    ul{
+        display:flex;
+        flex-direction: column;
+        padding:0;
+        margin: 0;
+    }
+    ul li{
+        list-style-type: none;
         justify-content: space-between;
-        height: 180px;
+        padding: 5px;
+        
     }
     .apre__links__sites{
         display:flex;
         flex-direction:column;
-        align-items:center;
-        width:200px;
+        align-items: center;
+        width: 150px;
+        margin: none;
+        height: 15px;
+        padding: 10px;
         color:rgba(245, 245, 245, 0.863);
         font-family:"inter",sans-serif;
         text-decoration: none;
         background-color:rgb(51, 51, 51);
-        font-size:12px;
+        font-size:10px;
         font-weight:600;
         border-radius: 7%;
-        padding:10px;
      
     }
 }
